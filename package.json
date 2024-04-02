@@ -1,0 +1,17 @@
+{
+  "name": "expensable-server",
+  "version": "1.0.0",
+  "description": "Server for the expensable application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tsc && node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murilo Wolfart",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  }
+}
